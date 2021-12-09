@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+        ></script>
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com/">
+    
+    
+        <!-- //main css -->
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="img/H1.png">
+        <link rel="manifest" href="manifest.json"/>
+    
+        <script
+        src="https://kit.fontawesome.com/64d58efce2.js"
+        crossorigin="anonymous"
+        ></script>
+    
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-storage.js"></script>
+    
+        <title>Hydro-mon</title>
+      </head>
+  <body>
+    <!-- START NAVBAR -->
+    <div class="container my-3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light custom-nav bg-transparent">
+            <div class="container-fluid navbar">
+              <a class="navbar-brand" href="#">
+                  <img src="img/H1.png" alt="logo-hydro">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- INFO NAV -->
+              <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Beranda</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sekretariat</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                  </li>
+                </ul>
+              </div>
+
+              <!-- LOGIN NAV -->
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Log in</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="signup.html"> Sign Up</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+      <!-- END NAVBAR -->
+
+      <!-- UPPER CONTENT -->
+      <div class="container">
+        <div class="row custom-section">
+          <div class="col-12 col-lg-5">
+            <h2>Welcome,</h2>
+            <h3>Selamat datang di website Hydrogen Monitoring Rafi Pratama</h3>
+            <p>Hydro-mon: Hydrogen Monitoring merupakan progressive web apps yang dibangun untuk melakukan proses pemantauan produksi gas pada reaktor gas.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- END UPPER CONTENT -->
+
+                  <!-- DYNAMIC TEXT -->
+                  <div class="section dynamic-text">
+                    <div class="col-12">
+                      <div class="row" >
+                        <div class="container" style="padding-right: 0;">
+                          <!-- <img src="img/wallpaper/nature1.jpg" class="img-fluid" alt="nature-img" style="opacity: 0.5;"> -->
+                          <h3 class="text-animated"></h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- END DYNAMIC TEXT -->
+
+      <!-- ICON INFO -->
+
+
+
+      <!-- DEPUTY INFO -->
+      <div class="container">
+        <div class="row" style="margin-top: 150px;">
+          <div class="col-lg-3 offset-lg-1" id="deputy-info">
+            <img src="img/member/eniya.png" class="img-fluid member-img" alt="president-pict">
+          </div>
+          <div class="col-lg-7 info-deputy">
+              <p style="padding-bottom: 10px;">Indonesia Fuel Cell and Hydrogen Energy, merupakan perkumpulan yang berkecimpung dalam bidang fuel cell dan hidrogen energi dan aplikasinya, semoga dengan adanya website ini akan mempermudah Anda mencari informasi dan berkomunikasi dengan Kami.</p>
+              <p>Salam,<br>
+              Prof. Dr. Eng. Eniya Listiani Dewi, B.Eng, M.Eng.<br>
+              Presiden IFHE.</p>
+              <a href="signup.html">Join us</a>
+          </div>  
+      </div>
+      </div>
+      <!-- END DEPUTY INFO -->
+
+
+
+
+
+            <!-- FOOTER -->
+      
+            <div class="row footer">
+              <div class="col-lg-10 text">
+                <p>© Copyright 2021 IFHE.OR.ID - All Rights Reserved</p>
+              </div>
+              <!-- <div class="col-lg-2 icon">
+                <img src="img/insta.png" alt=""><a href="#insta">our instagram</a>
+              </div>
+            </div> -->
+            
+          <!-- END FOOTER -->
+
+      <!-- JS SCRIPT -->
+      <script src="js/typed.js"></script>
+      <script>
+        var typed = new Typed('.text-animated', {
+          strings: [
+            "Selamat datang di website IFHE.OR.ID",
+            "Indonesia Fuel Cell and Hydrogen Energy"
+          ],
+          typeSpeed: 70,
+          backSpeed: 70,
+          loop: true,
+        });
+      </script>
+
+
+      
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="main.js"></script>
+  </body>
+</html>

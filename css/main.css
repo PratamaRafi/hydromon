@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #8fb090;
+}
+
+/* body {
+  background-image: url(../img/background.png);
+} */
+
+body::before {
+  content: "";
+  background-image: url(../img/background.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-position-y: 150px;
+  background-size: 50vmax;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 992px) {
+  body::before {
+    margin-top: 0px;
+    opacity: 0.2;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .custom-section {
+    text-align: center;
+  }
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
+  text-align: center;
+  /* text-transform: uppercase; */
+  color: #415da5;
+}
+
+.custom-section {
+  margin-top: 7em;
+}
+
+.custom-section h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #27221c;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.custom-section h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.custom-section p {
+  font-size: 1rem;
+  margin-top: 2em;
+}
+
+.custom-section a {
+  cursor: pointer;
+  display: inline-block;
+  color: white;
+  background-color: #7faaf7;
+  border-radius: 1.5em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border: 1px solid transparent;
+  font-weight: 500;
+}
+
+.custom-section a:hover {
+  color: white;
+  background-color: #415da5;
+  border-color: #7faaf7;
+}
+
+.collab {
+  background-color: #ebf3fa;
+  border-radius: 0.9em !important;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5) !important;
+}
+
+.info {
+  background-color: whitesmoke !important;
+  border-radius: 1em !important;
+  margin: 5px !important;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3) !important;
+  padding: 1em;
+}
+
+.info-deputy {
+  background-color: whitesmoke;
+  border-radius: 1em !important;
+  margin: 5px !important;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3) !important;
+  padding: 1em;
+}
+
+.info-deputy p {
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .info-deputy {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .info-deputy p {
+    font-size: 1rem;
+  }
+
+  #deputy-info {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  .info-deputy {
+    margin: 0 !important;
+  }
+}
+
+.info-deputy a {
+  display: inline-block;
+  color: white;
+  background-color: #7faaf7;
+  border-radius: 1.5em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border: 1px solid transparent;
+  font-weight: 500;
+  margin-left: 15em;
+}
+
+.info-deputy a:hover {
+  color: white;
+  border: 1px solid #7faaf7;
+  background-color: #415da5;
+}
+
+@media screen and (max-width: 992px) {
+  .info-deputy a {
+    margin-left: auto;
+  }
+}
+
+.text-info {
+  text-align: center;
+  color: #212529 !important;
+}
+
+.member-img {
+  border-radius: 1em;
+  height: 365px;
+  width: 268px;
+  /* margin-left: 150px; */
+  -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.7);
+  /* margin-bottom: 100px; */
+}
+
+@media screen and (max-width: 992px) {
+  .member-img {
+    margin-bottom: 2em;
+    margin-left: 0.4em;
+    margin-top: -3em !important;
+  }
+}
+
+.dynamic-text {
+  margin-top: 110px;
+  text-align: center;
+  /* background-color: tomato; */
+  /* background-image: url(../img/wallpaper/nature1.jpg); */
+}
+
+.dynamic-text h3 {
+  position: absolute;
+  top: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5em;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.dynamic-text span {
+  position: absolute;
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .dynamic-text {
+    margin-top: 80px !important;
+  }
+
+  .dynamic-text img {
+    height: 200px;
+    top: auto;
+  }
+
+  .dynamic-text h3 {
+    margin-top: 0 !important;
+    font-size: 1.4rem;
+    top: auto;
+  }
+}
+
+.article {
+  margin-top: -13rem;
+}
+
+/* .article h3 {
+  color: black !important;
+} */
+
+.article a {
+  display: inline-block;
+  color: white;
+  background-color: #7faaf7;
+  border-radius: 1.5em;
+  padding: 0.5em 2em;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  border: 1px solid transparent;
+  font-weight: 500;
+  margin-left: 150px;
+}
+
+.article a:hover {
+  color: white;
+  background-color: #415da5;
+  border-color: #7faaf7;
+}
+
+@media screen and (max-width: 922px) {
+  .article {
+    margin-top: -10%;
+  }
+
+  .article img {
+    width: 16rem;
+  }
+
+  .article .news1 {
+    margin-left: -130px !important;
+    width: 16rem !important;
+    margin-bottom: 20px;
+  }
+
+  .article .news2 {
+    margin-left: -30px !important;
+    width: 16rem !important;
+  }
+
+  .article a {
+    font-size: 0.8rem;
+    margin-left: 7em;
+  }
+
+  .article .diff {
+    width: 0;
+  }
+}
+
+.contact h3 {
+  font-size: 3rem;
+}
+
+.contact p {
+  color: #4f5a66;
+}
+
+@media screen and (max-width: 992px) {
+  .contact h3 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #212529;
+}
+
+.footer p {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  margin-top: 16px;
+}
+
+.footer img {
+  /* margin-top: 10px; */
+  width: 30px;
+  height: 30px;
+}
+
+.footer .icon {
+  margin-top: 11px;
+  width: 150px;
+}
+
+.footer .text {
+  margin-left: 160px !important;
+  width: 1000px;
+  padding: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 922px) {
+  .footer .text {
+    width: 150px;
+    text-align: center;
+  }
+
+  .footer p {
+    margin-left: -100px !important;
+    font-size: 0.8rem !important;
+    text-align: center;
+  }
+
+  .footer .icon {
+    margin-left: 120px;
+  }
+}
