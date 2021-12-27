@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body::before {
+  content: "";
+  margin-bottom: -500px;
+  -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+  background-image: url(../img/bg2.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 60vmax;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 992px) {
+  body::before {
+    opacity: 0.4;
+  }
+}
+
+.custom-nav {
+  background-color: #8fb090 !important;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav {
+    margin-left: -50px;
+  }
+}
+
+.custom-nav .navbar-brand {
+  margin-top: -7px;
+  margin-left: 50px;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.custom-nav .navbar-nav {
+  margin-right: 100px;
+}
+
+.custom-nav .navbar-nav .nav-link {
+  text-align: center;
+  margin-left: 2em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.custom-nav .navbar-nav .nav-link:hover {
+  color: #090807;
+}
+
+@media screen and (max-width: 992px) {
+  .custom-nav .navbar-nav .nav-link {
+    margin-right: 1.6em;
+    text-transform: lowercase;
+    font-size: 1.1em;
+  }
+  .custom-nav .navbar-nav .nav-link:hover {
+    color: #ffcd91;
+  }
+}
+
+.content .upper-content {
+  margin-top: 100px;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .content .upper-content h2,
+  .content .upper-content h3 {
+    font-size: 1.2em;
+  }
+}
+
+.button .button-data {
+  font-size: 14px;
+  margin-bottom: 2em;
+}
+
+@media screen and (max-width: 992px) {
+  .button .button-data a {
+    margin-left: -50px;
+  }
+}
+
+.button .button-data a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-bottom: 3em;
+  padding: 1em 2em;
+  background-color: #27221c;
+  text-align: center;
+  border-radius: 1em;
+  font-weight: 400;
+}
+
+.button .button-data a:hover {
+  color: #27221c;
+  border: 2px solid #27221c;
+  background-color: transparent;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 500px;
+  overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.table {
+  background-color: whitesmoke;
+  -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 1.2em;
+  margin-top: 25px;
+}
+
+.table .col {
+  border-radius: 1.7em;
+}
+/*# sourceMappingURL=tabel.css.map */
